@@ -59,7 +59,7 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="RMDIR /Q /S &quot;$(GameFolder)\Modules\$(MSBuildProjectName)&quot;" />
+    <Exec Command="RMDIR /Q /S &quot;%25GameFolder%25\Modules\$(MSBuildProjectName)&quot;" />
   </Target>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
