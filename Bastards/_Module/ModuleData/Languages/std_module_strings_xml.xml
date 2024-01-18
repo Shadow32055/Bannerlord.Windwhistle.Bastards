@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="English" />
+	</tags>
+	<strings>
+		<string id="BastardsEventStart" text="I was thinking that you and I..." />
+		<string id="BastardsEventStartQuestionedAlreadyAsked" text="I'm not in the mood for this.[rf:negative, rb:negative]" />
+		<string id="BastardsEventStartQuestionedInterested" text="...? You and I...?[rf:unsure, rb:unsure]" />
+		<string id="BastardsEventStartQuestionedNotInterested" text="...? I don't know what picture you're trying to paint here, but this conversation is boring me.[rf:very_negative_ag, rb:negative]" />
+		<string id="BastardsEventConfirmationYes" text="Will you ride with me for a while?" />
+		<string id="BastardsEventConfirmationNo" text="Uh, nevermind." />
+		<string id="BastardsEventConfirmationReceived" text="Yes.. I think I would like that very much.[rf:positive, rb:positive]" />
+		
+		<string id="BastardPlayerConceptionSuccess" text="{HERO_MOTHER_NAME} has gotten pregnant!" />
+    
+    <string id="BastardsBecomeHerosBastard" text="I believe I'm your bastard child." />
+		<string id="BastardsBecomeHerosBastardConfirmationStart" text="Eh, are you sure about that...?[rf:unsure, rb:unsure]" />
+		<string id="BastardsBecomeHerosBastardConfirmationOptionYes" text="Yea, just look at me and try to deny it." />
+		<string id="BastardsBecomeHerosBastardConfirmationOptionNo" text="Perhaps you are right. Apologies, been drinking too much lately." />
+		<string id="BastardsBecomeHerosBastardConfirmationEndYes" text="Yea, I suppose so! You seem to have my features well enough![rf:very_positive_ag, rb:very_positive]" />
+		<string id="BastardsBecomeHerosBastardConfirmationEndNo" text="Ehm...[rf:negative_ag]" />
+		
+    <string id="BastardsLegitimizeByPlayerStart" text="I believe it's time you were made a true member to your family." />
+		<string id="BastardsLegitimizeByPlayerConfirmationStart" text="That would be an honor! However, are you sure that would be wise at the moment? It could cost you quite a lot of influence among the others.[rf:very_positive, rb:very_positive]" />
+		<string id="BastardsLegitimizeByPlayerConfirmationOptionYes" text="Let it be so." />
+		<string id="BastardsLegitimizeByPlayerConfirmationOptionYesExplanation" text="You need to have {INFLUENCE} influence." />
+		<string id="BastardsLegitimizeByPlayerConfirmationOptionNo" text="Perhaps you are right. The time isn't right." />
+		<string id="BastardsLegitimizeByPlayerConfirmationEndYes" text="This is a great honor you bestow upon me! I will do my best to live up to your expectations.[rf:very_positive, rb:very_positive]" />
+		<string id="BastardsLegitimizeByPlayerConfirmationEndNo" text="Alright... I will try to live up to your expectations.[rf:negative, rb:unsure]" />
+		
+    <string id="MessageBastardLegitimized" text="{BASTARD_NAME} has been legitimized!" />
+		<string id="MessageBastardLegitimizedInfluenceSpent" text="You spent {INFLUENCE} influence." />
+		
+    <string id="BastardBirthStillborn" text="{HERO_MOTHER_NAME} has delivered stillborn." />
+		<string id="BastardBirthPlayerIsMother" text="You have given birth to {BASTARDNAME}. Will you raise them as your own and take them into your clan?" />
+		<string id="BastardBirthPlayerIsFather" text="{BASTARDMOTHERNAME} has given birth to {BASTARDNAME}. Will you raise them as your own and take them into your clan?" />
+		<string id="BastardBirthPlayerDisplayBoxTitle" text="Bastard Born" />
+		
+    <string id="BastardSurnameSturgia" text="Snow" />
+		<string id="BastardSurnameEmpire" text="Waters" />
+		<string id="BastardSurnameBattania" text="Rivers" />
+		<string id="BastardSurnameVlandia" text="Hill" />
+		<string id="BastardSurnameKhuzait" text="Grass" />
+		<string id="BastardSurnameAserai" text="Sand" />
+    
+		<string id="BastardEncyclopediaTitle" text="Bastard" />
+  </strings>
+</base>
