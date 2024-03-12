@@ -11,8 +11,8 @@ using TaleWorlds.MountAndBlade;
 namespace Bastards {
     public class Bastards : MBSubModuleBase {
         public static Random Random = new Random();
-        public static MCMSettings Settings { get; private set; }
-        public static string ModName { get; private set; } = "Homesteads";
+        public static MCMSettings Settings { get; private set; } = new MCMSettings();
+        public static string ModName { get; private set; } = "Bastards";
 
         private bool isInitialized = false;
         private bool isLoaded = false;
@@ -32,7 +32,7 @@ namespace Bastards {
 
                 isInitialized = true;
             } catch (Exception e) {
-                NotifyHelper.ReportError(ModName, "OnSubModuleLoad threw exception " + e);
+                NotifyHelper.WriteError(ModName, "OnSubModuleLoad threw exception " + e);
             }
         }
 
@@ -48,12 +48,12 @@ namespace Bastards {
 
                 Settings = MCMSettings.Instance ?? throw new NullReferenceException("Settings are null");
 
-                NotifyHelper.ChatMessage(ModName + " Loaded.", MsgType.Good);
+                NotifyHelper.WriteMessage(ModName + " Loaded.", MsgType.Good);
                 Integrations.BetterHealthLoaded = true;
 
                 isLoaded = true;
             } catch (Exception e) {
-                NotifyHelper.ReportError(ModName, "OnBeforeInitialModuleScreenSetAsRoot threw exception " + e);
+                NotifyHelper.WriteError(ModName, "OnBeforeInitialModuleScreenSetAsRoot threw exception " + e);
             }
         }
 
